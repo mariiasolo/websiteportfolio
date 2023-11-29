@@ -40,7 +40,7 @@ export default function Home() {
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
               With a set of digital content creation tools and front-end development skills, 
               I am passionate to turn ideas into innovative digital products. 
-              Explore my latest projects, showcasing my expertise in digital design and web development.
+              Explore my latest projects, showcasing my experience in digital design and web development.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link href="/cvSolo.pdf" target={"_blank"}
