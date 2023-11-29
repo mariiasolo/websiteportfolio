@@ -50,7 +50,7 @@ export default function Home() {
                 dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light
                 hover:dark:border-light md:p-2 md:px-4 md:text-base'
                 download={true}
-                >CV <LinkArrow className={'w-6 ml-1'}/>
+                >CV <LinkArrow className={'w-6 h-5 ml-1'}/>
                 
                 </Link>
                 
