@@ -38,18 +38,18 @@ const Skills = () => {
 
             <Skill name="Bootstrap" x="-23vw" y="-6vw" />
             <Skill name="Canva" x="35vw" y="0vw" />
-            <Skill name="HTML,CSS" x="-5vw" y="-9vw" />
-            <Skill name="Javascript" x="17vw" y="3vw" />
+            <Skill name="HTML,CSS,Js" x="-5vw" y="-9vw" />
+            <Skill name="NextJs" x="17vw" y="3vw" />
             <Skill name="React Native" x="20vw" y="-6vw" />
             <Skill name="ReactJS" x="1vw" y="11vw" />
             <Skill name="WordPress" x="-20vw" y="-19vw" />
             <Skill name="Tailwind CSS" x="7vw" y="-15vw" />
             <Skill name="Figma" x="27vw" y="-17vw" />
-            <Skill name="SAP, Tableau, Power BI" x="36vw" y="11vw" />
+            <Skill name="Photoshop" x="36vw" y="11vw" />
             <Skill name="InDesign" x="1vw" y="-20vw" />
-            <Skill name="Adobe Photoshop" x="-25vw" y="18vw" />
-            <Skill name="Adobe Illustrator" x="18vw" y="21vw" />
-            <Skill name="Adobe Primiere Pro" x="-32vw" y="2vw" />
+            <Skill name="SAP, Tableau, Power BI" x="-25vw" y="18vw" />
+            <Skill name="Illustrator" x="18vw" y="21vw" />
+            <Skill name="Primiere Pro" x="-32vw" y="2vw" />
             <Skill name="SQL" x="-15vw" y="9vw" />
         </div>
     </>
