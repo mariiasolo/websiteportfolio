@@ -4,7 +4,7 @@ import { useRef } from 'react';
 import LiIcon from './LiIcon';
 
 
-const Details = ({type, time, place, info}) => {
+const Details = ({type, time, place, placeLink, info}) => {
     const ref = useRef(null);
     return (
         <li ref={ref} 
@@ -18,12 +18,20 @@ const Details = ({type, time, place, info}) => {
                 transition={{duration:0.5, type: "spring"}}
 
                 >
-                    <h3 className='capitalize font-bold text-2xl sm:text-xl xs:text-lg'>
-                        {type}
-                    </h3>
-                <span className='capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm'>
-                    {time} | {place}
-                </span>
+                    
+
+                <h3 className='capitalize font-bold text-2xl sm:text-xl xs:text-lg'>
+                  {type}
+                </h3>
+                                                                    
+                <p className='capitalize font-medium text-dark/75 dark:text-light/75
+                xs:text-sm'>
+                    {time} | <a href={placeLink} target='_blank'
+                        className='text-primary capitalize dark:text-primaryDark'>
+                        
+                        @{place}
+                        </a>
+                </p>
                 <p className='font-medium w-full md:text-sm'>{info} </p>
 
                 </motion.div>
@@ -58,6 +66,7 @@ const Education = () => {
                     type="Bachelor Of Business Information Technology" 
                     time="2021-Present"
                     place="Haaga-Helia University of Applied Sciences"
+                    placeLink="https://www.haaga-helia.fi/fi"
                     info="Studies included Programming Courses (JS, JsReact, Java, SQL), 
                         Digital Courses (HTML, CSS, Figma), and Business IT courses ( BI tools, Agile)" 
                 />
@@ -66,6 +75,7 @@ const Education = () => {
                     type="Digital Content Creation study module" 
                     time="Jan 2023- Jul 2023"
                     place="Arcada University of Applied Sciences"
+                    placeLink="https://www.arcada.fi/en/study-arcada/continuing-education/course-calendar/digital-content-creation"
                     info="Creating and developing a digital content for an imaginary company. 
                         Working on creating a user persona, website with WordPress Elementor Pro, creating 
                         promotional material for social media using Adobe Creative Cloud including Photoshop, Illustrator, InDesign, Premiere Pro." 
@@ -75,6 +85,7 @@ const Education = () => {
                     type="Bachelor Of Hotel, Restaurant and Tourism Management" 
                     time="2012-2016"
                     place="LAB University of Applied Sciences"
+                    placeLink="https://lab.fi/"
                     info="Studies majored at managing restaurant and tourism operations, 
                         sales and marketing, revenue management, and hotel development." 
                 />
