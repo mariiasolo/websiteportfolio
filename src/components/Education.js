@@ -29,7 +29,7 @@ const Details = ({type, time, place, placeLink, info}) => {
                     {time} | <a href={placeLink} target='_blank'
                         className='text-primary capitalize dark:text-primaryDark'>
                         
-                        @{place}
+                        {place}
                         </a>
                 </p>
                 <p className='font-medium w-full md:text-sm'>{info} </p>
