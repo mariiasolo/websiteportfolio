@@ -26,14 +26,13 @@ const about = () => {
                         <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>About Me</h2>
                         <p className='font-medium text-justify'>
                         Hello, I am Mariia Solo from Porvoo, Finland. A web developer and UI/UX designer with a passion for creating purposeful, functional, 
-                        and user-centered digital products. I am always looking for innovative ways to solve a problem or 
-                        upgrade user&apos;s experience with new design and functionality.
+                        and user-centered digital products. I am always seeking innovative ways to solve problems and enhance users' experiences through new designs 
+                        and functionalities.
                         </p>
                         <p className='my-4 font-medium text-justify'>
-                        I am a final-year student at Business Information Technology bachelor degree at Haaga-Helia University 
-                        of Applied Sciences. In 2016 I have graduated from LAB University of Applied Sciences with bachelor 
-                        degree in Hotel, Restaurant and Tourism Management. Moreover, in 2023 I accomplished the study module from Arcada University of Applied Sciences
-                        in Digital Content Creation. 
+                        Currently, I am a final-year student pursuing a bachelor's degree in Business Information Technology at Haaga-Helia University of Applied Sciences. 
+                        In 2016, I graduated from LAB University of Applied Sciences with a bachelor's degree in Hotel, Restaurant, and Tourism Management. 
+                        Additionally, in 2023, I completed a study module at Arcada University of Applied Sciences in Digital Content Creation. 
                         </p>
                         
                     </div>
@@ -51,13 +50,12 @@ const about = () => {
                     <div className='col-span-2 flex flex-col items-end justify-between md:order-3 md:col-span-8  lg:col-span-8'>
                         <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light'>Why Me</h2>
                         <p className='font-medium text-justify'>
-                        I believe having two bachelor degrees 
-                        is a valuable asset as it broadens my vision at problem solving. 
-                        I have a huge experience in customer service which can bring a different view at delivering best solutions for users. 
+                        I believe having two bachelor's degrees is a valuable asset as it broadens my vision for problem-solving. 
+                        I have significant experience in customer service, which provides a different perspective on delivering the best solutions for users. 
                         </p>
 
                         <p className='my-4 font-medium text-justify'>
-                        Currently, I am looking forward to getting an opportunity to show my commitment of learning new things quickly, and bring user-centered experiences into life in tech world. 
+                        Currently, I am eager to seize an opportunity to demonstrate my commitment to quickly learning new things and bringing user-centered experiences to life in the tech world. 
                         </p>
                     </div>
 
