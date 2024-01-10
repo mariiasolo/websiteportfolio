@@ -62,7 +62,7 @@ const Experience = () => {
                 <Details 
                     position="UX/UI Designer" 
                     company="Open Potentials e.u ClearKarma"
-                    companyLink="https://vbo.fi/"
+                    companyLink="http://www.clearkarma.com/"
                     time="2023-Present" 
                     address="Vienna, Austria"
                     work="Internship that is aimed to improve my UX/UI design skills. 
