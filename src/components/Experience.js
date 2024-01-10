@@ -60,6 +60,19 @@ const Experience = () => {
 
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                 <Details 
+                    position="UX/UI Designer" 
+                    company="Open Potentials e.u ClearKarma"
+                    companyLink="https://vbo.fi/"
+                    time="2023-Present" 
+                    address="Vienna, Austria"
+                    work="Internship that is aimed to improve my UX/UI design skills. 
+                    Among responsibilities are creating wireframes and prototypes based on the given business case,
+                    working on data analysis, creating use case diagrams, defining future system user roles, 
+                        helping with frontend development of the future app."
+                
+                />
+                
+                <Details 
                     position="Sales Assistant" 
                     company="Sale VBO"
                     companyLink="https://vbo.fi/"
