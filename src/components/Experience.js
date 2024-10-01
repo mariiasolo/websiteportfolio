@@ -69,7 +69,7 @@ const Experience = () => {
                     that involves creating a website using the WordPress website builder. 
                     The Elementor Pro plugin was used to customize the site, 
                     along with CSS and JavaScript coding to add specific features and functionalities, 
-                    thus avoiding the need to pay for extra plugins "
+                    thus avoiding the need to pay for extra plugins. "
                 
                 />
                 
