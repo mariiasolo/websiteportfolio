@@ -62,7 +62,7 @@ const Experience = () => {
                 <Details 
                     position="Project Work" 
                     company="Larken Oy"
-                    companyLink="http://www.larken.fi/"
+                    companyLink="https://www.larken.fi/"
                     time="2024" 
                     address="Vantaa"
                     work="Project work to finalise my studies at Haaga-Helia UAS  
