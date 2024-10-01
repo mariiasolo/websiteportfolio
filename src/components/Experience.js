@@ -60,6 +60,20 @@ const Experience = () => {
 
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                 <Details 
+                    position="Project Work" 
+                    company="Larken Oy"
+                    companyLink="http://www.larken.fi/"
+                    time="2024" 
+                    address="Vantaa"
+                    work="Project work to finalise my studies at Haaga-Helia UAS  
+                    that involves creating a website using the WordPress website builder. 
+                    The Elementor Pro plugin was used to customize the site, 
+                    along with CSS and JavaScript coding to add specific features and functionalities, 
+                    thus avoiding the need to pay for extra plugins "
+                
+                />
+                
+                <Details 
                     position="UX/UI Designer" 
                     company="Open Potentials e.u ClearKarma"
                     companyLink="http://www.clearkarma.com/"
